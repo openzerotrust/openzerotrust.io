@@ -6,15 +6,24 @@ module.exports = {
     extend: {
       colors: {
         // Configure your color palette here
-        primary: '#ffff33',
-        'primary-light': '#113636',
-
-        'secondary-dark': '#0C0D0D',
+        primary: '#30BA78',
+        'primary-light': '#90EBCD',
+        'primary-dark': '#0C322C',
+        'secondary-dark': '#FE7C3F',
         'secondary-light': '#30BA78',
         'secondary-lighter': '#AFEACD',
         'suse-blue': '#2251F5',
         'suse-gray': '#f7f7f7',
-        customDark: `#1d1f1f`,
+        'customDark': '#EFEFEF',
+        'suse-pine_green': '#0C322C',
+        'suse-jungle_green': '#30BA78',
+        'suse-midnight_blue': '#192072',
+        'suse-waterhole_blue': '#2453FF',
+        'suse-mint': '#90EBCD',
+        'suse-persimmon': '#FE7C3F',
+        'suse-fog': '#EFEFEF',
+        'black': '#000000', 
+        'white': '#ffffff',
       },
     },
     fontFamily: {

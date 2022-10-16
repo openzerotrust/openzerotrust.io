@@ -1,3 +1,4 @@
+import { OpenZeroTrustSVG } from '@/assets/images'
 import { RancherLogoSVG } from '@/assets/images'
 import EpinioLogo from '@/assets/products-logos/icon-epinio.svg'
 import HarvesterLogo from '@/assets/products-logos/icon-harvester.svg'
@@ -31,12 +32,18 @@ export const Header = () => {
   }, [theme, updateTheme])
 
   return (
-    <div className='relative bg-primary-light text-white dark:bg-secondary-dark dark:text-white py-2'>
+    <div className='relative bg-white text-black dark:bg-suse-jungle_green dark:text-black py-2'>
+
       <div className='grid grid-flow-row place-self-end md:grid-flow-row mx-auto 2xl:w-4/6'>
         {/* Main Header */}
-        <div className='flex place-self-end md:place-self-end self-center gap-2 px-4 py-4'>
-          <DocAndGitLinks />
+ {/*    <div className='place-self-start md:lef-0'> */}
+{/*       <OpenZeroTrustSVG className='w-40 place-self-start md:left-0 fill-current text-primary-light dark:text-primary my-4' /> */}
+{/*      </div> */}
 
+        <div className='flex place-self-end md:place-self-end self-center gap-2 px-4 py-4'>
+          <OpenZeroTrustSVG className='w-40 place-absolute-start md:place-self-start-0 fill-current text-primary-light dark:text-primary my-4' />
+
+          <DocAndGitLinks />
           <div className='relative flex self-center align-middle md:ml-2 group hover:cursor-pointer'>
             <div className='p-2 border border-opacity-20 rounded-md'>
               <span className='hidden md:flex'>More from SUSE</span>
@@ -45,7 +52,7 @@ export const Header = () => {
               </svg>
             </div>
 
-            <div className='absolute -left-20 md:left-0 top-10 hidden group-hover:flex flex-col bg-primary-light bg-opacity-95  dark:bg-secondary-dark text-sm drop-shadow shadow-sm shadow- p-4 z-10 min-w-[180px] transition-all'>
+            <div className='absolute -left-20 md:left-0 top-10 hidden group-hover:flex flex-col bg-primary-light bg-opacity-95  dark:bg-suse-pine_green text-sm drop-shadow shadow-sm shadow- p-4 z-10 min-w-[180px] transition-all'>
               <a rel='nofollow noreferrer' href='https://rancher.com/' target='_blank' className='flex gap-2 hover:ml-2 transition-all'>
                 <RancherLogoSVG className='w-4' />
                 Rancher

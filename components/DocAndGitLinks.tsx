@@ -8,7 +8,7 @@ export const DocAndGitLinks = () => {
         <span className='self-center'>Docs</span>
       </a>
 
-      <a className='flex self-center gap-2 px-4 font-medium underline' href='https://github.com/neuvector' target='_blank' rel='noreferrer'>
+      <a className='flex self-center gap-2 px-4 font-medium underline' href='https://github.com/openzerotrust' target='_blank' rel='noreferrer'>
         <GithubSVG className='fill-current w-6' />
         <span className='self-center'> GitHub</span>
       </a>

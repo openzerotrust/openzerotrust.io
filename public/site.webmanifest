@@ -1,5 +1,5 @@
 {
-    "name": "NeuVector - OpenZeroTrust",
+    "name": "OpenZeroTrust",
     "short_name": "Container security for cloud-native ecosystems",
     "icons": [
         {
@@ -8,7 +8,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#FFFF33",
-    "background_color": "#12181A",
+    "theme_color": "#30BA78",
+    "background_color": "#ffffff",
     "display": "standalone"
 }
