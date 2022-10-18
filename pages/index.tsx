@@ -50,11 +50,14 @@ export default function Home() {
             <div>
               <motion.p className='grid grid-flow-row gap-4 text-sm ' initial='hidden' animate='visible' variants={motionListItems}>
 OpenZeroTrust is an open source full Lifecycle Container Security platform that delivers complete container security with uncompromising end-to-end protection.<br/>
-From DevOps vulnerability scanning to automated runtime protection, featuring a true Layer 7 container firewall that can identify and drop-dead threats coming via your network and prevent data leaks.<br/>
-With our behavior-based Zero-Trust policies your application can be protected even zero days and threats coming from unexpected application behaviors, and thanks to the application-behavior learning capabilities these policies tailor made to your application can be created easily and in an automated way.
+From DevOps vulnerability scanning to automated runtime protection, OpenZeroTrust enables you to fully protect your applications and supply chain.
+
+OpenZeroTrust features a true Layer 7 container firewall that can identify and drop-dead threats coming via your network as well as prevent data leaks.<br/>
+And with our behavior-based Zero-Trust policies, tailor made for your application, it can be protecte even from zero days and threats coming from unexpected application behaviors without all the noise of false positives. 
+Thanks to the application-behavior learning capabilities these policies tailor made for your application can be created easily and in an automated way.
              </motion.p>
               <motion.p className='grid grid-flow-row gap-4 text-sm ' initial='hidden' animate='visible' variants={motionListItems}>
-It offers DevOps, DevSecOps, and Security teams the tool they need to secure and protect the entire container pipeline, from Build to Ship to Run, automatically, with security-as-code.
+It offers DevOps, DevSecOps, and Security teams the tool they need to secure and protect the entire container pipeline, from Build to Ship to Run, automatically, with security-as-code so they can focus on delivering great applications instead..
               </motion.p><br/>
               <motion.p className='gap-4 text-sm ' initial='hidden' animate='visible' variants={motionListItems}>
 OpenZeroTrust is the upstream open source project for <a href='https://neuvector.com' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 underline hover:cursor-pointer'>NeuVector</a> - a fully supported, enterprise-grade container lifecycle security platform from <a href='https://suse.com' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 underline hover:cursor-pointer'>SUSE</a>.
@@ -82,7 +85,7 @@ OpenZeroTrust is the upstream open source project for <a href='https://neuvector
               <h2 className='text-secondary-dark dark:text-primary font-bold text-2xl'>Supply Chain Security</h2>
               <p className='text-bold my-4 text-sm font-bold'>Shift security left without slowing down.</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                OpenZeroTrust is Kubernetes native and easily integrates into your CI/CD pipelines with complete vulnerability management, compliance scanning, admission controls and security policies via CRDs.
+                OpenZeroTrust is Kubernetes native and easily integrates into your CI/CD pipelines with complete vulnerability management, compliance scanning, admission controls and security policies easily applied via CRDs.
               </motion.p>
             </div>
 
@@ -90,7 +93,7 @@ OpenZeroTrust is the upstream open source project for <a href='https://neuvector
               <h2 className='text-secondary-dark dark:text-primary font-bold text-2xl'>Network Visibility</h2>
               <p className='text-bold my-4 text-sm font-bold'>360 degree view for 100% visibility.</p>
               <motion.p className='grid grid-flow-row gap-4 text-sm font-thin' initial='hidden' animate='visible' variants={motionListItems}>
-                Layer 7 visibility within and between pods and network mapping, our own DPI ( Deep Packet Inspection ) technology understands layer 7 ( application ) protocols to detects and kills threats before they reach your applications.
+                Layer 7 visibility within and between pods and network mapping, we use our own DPI ( Deep Packet Inspection ) technology understands layer 7 ( application ) protocols to detect and kill threats before they reach your applications.
               </motion.p>
             </div>
 
@@ -155,11 +158,11 @@ OpenZeroTrust is the upstream open source project for <a href='https://neuvector
             <div>
               <p>Images are available on the OpenZeroTrust Docker Hub registry. Use the appropriate version tag for the manager, controller, enforcer, and leave the version as ‘latest’ for scanner and updater. For example:</p>
               <ul className='flex flex-col gap-2 p-4 list-disc'>
-                <li>openzerotrust/manager.preview:5.0.0-preview.3</li>
-                <li>openzerotrust/controller.preview:5.0.0-preview.3</li>
-                <li>openzerotrust/enforcer.preview:5.0.0-preview.3</li>
-                <li>openzerotrust/scanner.preview:latest</li>
-                <li>openzerotrust/updater.preview:latest</li>
+                <li>openzerotrust/manager:5.0.3</li>
+                <li>openzerotrust/controller:5.0.3</li>
+                <li>openzerotrust/enforcer:5.0.3</li>
+                <li>openzerotrust/scanner:latest</li>
+                <li>openzerotrust/updater:latest</li>
               </ul>
             </div>
             <div>
@@ -191,7 +194,7 @@ OpenZeroTrust is the upstream open source project for <a href='https://neuvector
               <p className='text-2xl mb-4 text-left text-bold text-suse-persimmon dark:text-white'>How to get involved</p>
 
               <p>OpenZeroTrust is an open source project hosted on GitHub.</p>
-              <p>Bugs and features are tracked through issues and new code is reviewed through pull requests.</p>
+              <p>Bugs and feature requests are tracked through GitHub issues and new code is reviewed through pull requests.</p>
 
               <div className='grid grid-flow-row md:grid-cols-2 gap-4'>
                 <a href='https://github.com/openzerotrust' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 transition-all no-underline flex align-middle justify-center px-auto py-2 font-bold text-black bg-suse-jungle_green dark:text-white dark:bg-primary hover:underline hover:cursor-pointer '>
