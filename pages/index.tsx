@@ -1,8 +1,10 @@
 import { motionListItems } from '@/assets/animations'
+import architecture from '@/assets/architecture.svg'
 import { HeaderDecoration } from '@/components/HeaderDecoration'
 import { motion } from 'framer-motion'
 import Head from 'next/head'
 import Image from 'next/image'
+
 export default function Home() {
   return (
     <>
@@ -109,14 +111,10 @@ export default function Home() {
 
         <div className='grid gap-6 mx-auto w-5/6 2xl:w-4/6'>
           <div className='grid grid-flow-row gap-14 mb-10'>
-            <div className='grid grid-colomn-4 content-middle-span-2 dark:text-white text-suse-pine_green font-bold text-2xl'>
-              <p className='text-3xl font-bold text-center text-dark dark:text-white'>How it works?</p>
-            </div>
-            <div>
-              <motion.p className='grid grid-flow-row gap-4 text-sm ' initial='hidden' animate='visible' variants={motionListItems}>
-                <Image width='771px' height='687px' src='https://github.com/openzerotrust/.github/raw/main/images/ozt_arch.png' alt='OpenZeroTrust Architecture diagram' />
-              </motion.p>
-            </div>
+            <p className='text-3xl font-bold text-center text-dark dark:text-white'>How it works?</p>
+              <motion.div className='grid grid-flow-row gap-4 text-sm ' initial='hidden' animate='visible' variants={motionListItems}>
+                <Image width='771px' height='687px' src={architecture.src} alt='OpenZeroTrust Architecture diagram' />
+              </motion.div>
           </div>
         </div>
 

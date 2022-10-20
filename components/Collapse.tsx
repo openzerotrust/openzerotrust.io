@@ -10,7 +10,7 @@ interface CollapseItem {
 export const Collapse = ({ elements }: { elements: CollapseItem[] }) => {
   const [isOpen, setIsOpen] = useState(1)
   return (
-    <div className='grid grif-flow-row'>
+    <div className='grid grid-flow-row'>
       {elements.map((ele, i) => (
         <CollapseItem key={i} id={i + 1} {...ele} isOpen={isOpen} setIsOpen={setIsOpen} />
       ))}
