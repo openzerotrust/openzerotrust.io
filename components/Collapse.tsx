@@ -23,8 +23,8 @@ export const CollapseItem = ({ title, description, id, isOpen, setIsOpen }) => {
 
   return (
     <div onClick={() => setIsOpen(id)}>
-      <div className={`flex flex-row align-middle gap-2 border-t-2 ${openItem && 'border-green-500'} hover:cursor-pointer`}>
-        <span className={`p-2 ${openItem ? 'bg-green-500 text-white' : 'bg-gray-100 text-gray-500'} font-bold text-2xl transition-all`}>{id}</span>
+      <div className={`flex flex-row align-middle gap-2 border-t-2 ${openItem && 'border-blue-500'} hover:cursor-pointer`}>
+        <span className={`p-2 ${openItem ? 'bg-blue-500 text-white' : 'bg-blue-100 text-blue-500'} font-bold text-2xl transition-all`}>{id}</span>
         <p className='place-self-center text-xl'>{title}</p>
       </div>
       {openItem && (
