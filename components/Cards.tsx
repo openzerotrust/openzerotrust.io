@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export const BulletPointCard = ({ item }) => {
   return (
-    <motion.div variants={motionListItems} key={item} className='relative grid items-center p-4 text-secondary-dark bg-gray-100 font-bold'>
+    <motion.div variants={motionListItems} key={item} className='relative grid items-center p-4 text-secondary-dark bg-blue-100 font-bold'>
       <span className='flex gap-2 justify-start py-4'>
         <span className='mt-1'>{/* <CheckMarkSVG className='w-6 h-6 fill-current text-secondary-light' /> */}</span>
         <span className='text-xl italic text-center'>{item}</span>
@@ -46,7 +46,7 @@ export const GetStartedDownloadCard = ({ index, title, action, description, exte
           )}
         </p>
         {action && action.isEnable && (
-          <a className='p-2 bg-primary self-start text-xs font-bold' href={action.url} target='_blank' rel='noreferrer'>
+          <a className='p-2 bg-blue-500 self-start text-xs font-bold' href={action.url} target='_blank' rel='noreferrer'>
             {action.title}
           </a>
         )}
