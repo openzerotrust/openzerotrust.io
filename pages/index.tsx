@@ -27,7 +27,7 @@ export default function Home() {
         </div>
 
         {/** 👀 About section */}
-        <div className='grid gap-6 mx-auto w-5/6 2xl:w-4/6'>
+        <div className='grid gap-6 mx-auto w-5/6 2xl:w-4/6 pt-14'>
           <div className='grid grid-flow-row gap-8 mb-10'>
             <p className='md:mt-10 text-3xl font-bold text-center text-dark dark:text-white'>What is OpenZeroTrust?</p>
             <div>

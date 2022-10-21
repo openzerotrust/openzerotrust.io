@@ -1,10 +1,10 @@
 export const HeaderDecoration = () => {
   return (
-    <div className='my-4 shadow-sm border-t-2 border-blue-700 bg-gray-100 w-full grid md:bottom md:absolute md:grid-flow-col text-dark margin-20 -bottom-10 items-center justify-center py-2'>
-      <p className='bg-gray-100 absolute left-2 top-60 md:-top-4 px-4 text-base'>Great for:</p>
-      <p className='flex justify-center bg-white items-center m-2 self-center p-4'>Protecting your applications right from the start</p>
-      <p className='flex justify-center bg-white items-center m-2 self-center p-4'>Continuously scan throughout the container lifecycle</p>
-      <p className='flex justify-center bg-white m-2 self-center p-4'>Removing security roadblocks with intelligent automation</p>
+    <div className='my-4 shadow-sm border-t-4 border-blue-700 bg-gray-100 w-full grid md:bottom md:absolute md:grid-flow-col text-dark margin-30 -bottom-24 items-center justify-center py-2'>
+      <p className='p-1 m-b-4  bg-gray-100 absolute left-[10%] top-60 md:-top-6 px-6 text-2xl font-bold text-right '>Great for</p>
+      <p className='border-b-8 border-l-8 border-r-8 border-gray-100 flex justify-center bg-white items-center m-2 self-center text-xl p-4'>Protecting your applications right from the start</p>
+      <p className='border-b-8 border-l-8 border-r-8 border-gray-100 flex justify-center bg-white items-center m-2 self-center text-xl p-4'>Continuously scan throughout the container lifecycle</p>
+      <p className='border-b-8 border-l-8 border-r-8 border-gray-100 flex justify-center bg-white items-center m-2 self-center text-l p-4'>Removing security roadblocks with intelligent automation</p>
     </div>
   )
 }
