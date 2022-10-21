@@ -40,7 +40,7 @@ export default function Home() {
                 <li> Zero-Trust Controls - protect from zero days and threats coming from unexpected application behaviors without all the noise of false positives.</li>
               </motion.ul>
             </div>
-            <motion.div className='bg-gray-200 text-black border-l-4 border-blue-500 font-light p-2 rounded-sm gap-4 text-sm' initial='hidden' animate='visible' variants={motionListItems}>
+            <motion.div className='bg-gray-100 text-black border-l-4 border-blue-500 font-light p-2 rounded-sm gap-4 text-sm' initial='hidden' animate='visible' variants={motionListItems}>
               OZT is the upstream open source project for {''}
               <a href='https://neuvector.com' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 underline hover:cursor-pointer'>
                 SUSE NeuVector {''}
