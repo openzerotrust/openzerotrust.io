@@ -20,7 +20,7 @@ export default function Home() {
         <div className='dark:bg-suse_jungle_green pattern-bg relative box-border'>
           <div className='grid content-center align-middle md:mb-6 md:grid-cols-1 mx-auto w-5/6 2xl:w-4/6 py-20'>
             <motion.div initial='hidden' animate='visible' variants={motionListItems} className='self-center col-span-1'>
-              <p className='text-3xl font-bold text-center text-white dark:text-white'>Container security for cloud-native ecosystems.</p>
+              <p className='text-3xl md:mb-10 font-bold text-center text-white dark:text-white'>Container security for cloud-native ecosystems.</p>
             </motion.div>
           </div>
           <HeaderDecoration />
@@ -40,7 +40,7 @@ export default function Home() {
                 <li> Zero-Trust Controls - protect from zero days and threats coming from unexpected application behaviors without all the noise of false positives.</li>
               </motion.ul>
             </div>
-            <motion.div className='bg-blue-600 border-l-4 border-blue-800 text-white font-light p-2 rounded-sm gap-4 text-sm' initial='hidden' animate='visible' variants={motionListItems}>
+            <motion.div className='bg-gray-200 text-black border-l-4 border-blue-500 font-light p-2 rounded-sm gap-4 text-sm' initial='hidden' animate='visible' variants={motionListItems}>
               OZT is the upstream open source project for {''}
               <a href='https://neuvector.com' target='_blank' rel='nofollow noreferrer' className='hover:scale-105 underline hover:cursor-pointer'>
                 SUSE NeuVector {''}
