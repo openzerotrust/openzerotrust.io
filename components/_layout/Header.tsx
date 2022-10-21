@@ -19,8 +19,8 @@ export const Header = () => {
 
           <DocAndGitLinks />
           <div className='relative flex self-center align-middle md:ml-2 group hover:cursor-pointer'>
-            <div className='p-2 border border-gray-400 border-opacity-20 rounded-md'>
-              <span className='hidden md:flex'>More from SUSE</span>
+            <div className='p-2 border border-gray-400 border-opacity-40'>
+              <span className='hidden md:flex text-sm'>More from SUSE</span>
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth='1.5' stroke='currentColor' className='flex md:hidden w-6 h-6'>
                 <path strokeLinecap='round' strokeLinejoin='round' d='M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5' />
               </svg>
