@@ -53,7 +53,7 @@ export default function Home() {
             </motion.div>
           </div>
         </div>
-
+        
         {/** 👀 How to section */}
         <div className='dark:bg-suse-pine_green bg-blue-50 relative'>
           <p className='text-3xl mt-10 font-bold text-center text-dark dark:text-white'>Why use Open Zero Trust?</p>
@@ -191,6 +191,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EH6S6EJ2S3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EH6S6EJ2S3');
+</script>
       </main>
     </>
   )
