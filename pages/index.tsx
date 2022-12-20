@@ -17,7 +17,7 @@ export default function Home() {
 
       <main className='grid grid-flow-row gap-8 text-sm'>
         {/** 👀 Call to Action section */}
-        <div className='dark:bg-suse_jungle_green pattern-bg relative box-border'>
+        <div className='bg-primary pattern-bg relative box-border'>
           <div className='grid content-center align-middle md:mb-6 md:grid-cols-1 mx-auto w-5/6 2xl:w-4/6 py-20'>
             <motion.div initial='hidden' animate='visible' variants={motionListItems} className='self-center col-span-1'>
               <p className='text-3xl md:mb-10 font-bold text-center text-white dark:text-white'>Container security for cloud-native ecosystems.</p>
@@ -53,7 +53,7 @@ export default function Home() {
             </motion.div>
           </div>
         </div>
-        
+
         {/** 👀 How to section */}
         <div className='dark:bg-suse-pine_green bg-blue-50 relative'>
           <p className='text-3xl mt-10 font-bold text-center text-dark dark:text-white'>Why use Open Zero Trust?</p>
